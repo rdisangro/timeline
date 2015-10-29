@@ -1,0 +1,134 @@
+
+
+<!DOCTYPE html><html><head><title>Copy of Official TimelineJS3 Template</title><meta name="viewport" content="target-densitydpi=device-dpi,user-scalable=1,minimum-scale=1,maximum-scale=2.5,initial-scale=1,width=device-width">
+<link href='/static/spreadsheets2/client/css/3440542795-waffle_k_ltr.css' type='text/css' rel='stylesheet'><style type="text/css">
+        html { overflow: visible; }
+        #sheets-viewport { overflow: auto; }
+        #sheets-viewport.widget-viewport { overflow: hidden; }
+        .grid-container { overflow: visible; background: white;}
+        .grid-table-container { overflow: visible; }
+        #top-bar {
+          background: url("//ssl.gstatic.com/docs/spreadsheets/publishheader.png") repeat-x bottom;
+          margin: 0;
+          overflow: hidden;
+        }
+        #top-bar {
+          border-bottom: 1px solid #ccc;
+          padding: 6px 6px 0;
+        }
+        #doc-title { padding-bottom: 5px; }
+        #doc-title .name { font-size: 15px; }
+        #sheet-menu {
+          font-size: 13px;
+          margin: 6px 0 0;
+          padding: 0 0 5px;
+        }
+        #sheet-menu li {
+          display: inline;
+          list-style-type: none;
+          margin: 0;
+          padding: 5px 8px;
+        }
+        #sheet-menu li.active {
+          background-color: #fff;
+          font-weight: bold;
+          border: 1px solid #999;
+        }
+        #top-bar #sheet-menu li.active {
+          border-bottom: 0;
+        }
+        #sheet-menu a, #sheet-menu a:visited { color: #07c; }
+        #footer {
+          background: #f0f0f0;
+          border-top: 1px #ccc solid;
+          border-bottom: 1px #ccc solid;
+          font-size: 13;
+          padding: 10px 10px;
+        }
+        .dash {
+          padding: 0 6px;
+        }
+        .ritz .waffle a { color: inherit; }.ritz .waffle .s7{text-align:center;font-weight:bold;color:#ffffff;background-color:yellow;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s8{text-align:center;font-weight:bold;color:#ffffff;background-color:#434343;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s9{text-align:left;color:#000000;background-color:#dae5f3;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s14{text-align:left;text-decoration:underline;color:#1155cc;background-color:red;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s15{text-align:left;color:#000000;background-color:#f3f3f3;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s17{text-align:left;text-decoration:underline;color:#1155cc;background-color:#f3f3f3;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s4{border-right:1px SOLID #000000;text-align:center;font-weight:bold;color:#ffffff;background-color:#999999;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s13{border-right:1px SOLID #000000;text-align:left;color:#000000;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s10{border-right:1px SOLID #000000;text-align:left;color:#000000;background-color:#dae5f3;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s11{text-align:left;text-decoration:underline;color:#1155cc;background-color:#dae5f3;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s2{text-align:center;font-weight:bold;color:#ffffff;background-color:#cccccc;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s1{border-right:1px SOLID #000000;text-align:center;font-weight:bold;color:#ffffff;background-color:#980000;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s5{text-align:center;font-weight:bold;color:#ffffff;background-color:#666666;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s12{text-align:left;color:#000000;background-color:#ffffff;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s0{text-align:center;font-weight:bold;color:#ffffff;background-color:#980000;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s16{border-right:1px SOLID #000000;text-align:left;color:#000000;background-color:#f3f3f3;font-family:Arial;font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s3{border-right:1px SOLID #000000;text-align:center;font-weight:bold;color:#ffffff;background-color:#cccccc;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s6{border-right:1px SOLID #000000;text-align:center;font-weight:bold;color:#ffffff;background-color:#666666;font-family:Arial;font-size:11pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}</style><script type="text/javascript">
+        var activeSheetId;
+
+        function switchToSheet(id) {
+          if (document.getElementById('sheet-menu')) {
+            document.getElementById('sheet-button-' + activeSheetId)
+                .className = '';
+            document.getElementById('sheet-button-' + id).className = 'active';
+          }
+
+          document.getElementById(activeSheetId).style.display = 'none';
+          document.getElementById(id).style.display = '';
+          activeSheetId = id;
+
+          // posObjs() is defined in embeddedObjectJs (see EmbeddedObjectHtmlBuilder.java)
+          posObjs();
+          return false;
+        }
+        
+        function init() {
+        var optPageSwitcher;
+        
+        function resize() {
+          var optMobileWebHeader = document.getElementById('docs-ml-header-id');
+          var optTopBar = document.getElementById('top-bar');
+          var optFooter = document.getElementById('footer');
+          var sheetsViewport = document.getElementById('sheets-viewport');
+
+          if (optMobileWebHeader) {
+            sheetsViewport.style.marginTop = optMobileWebHeader.offsetHeight +
+                (optTopBar ? optTopBar.offsetHeight : 0) + 'px';
+          }
+          var adjustedHeight = window.innerHeight -
+              (optTopBar ? optTopBar.offsetHeight : 0) -
+              (optFooter ? optFooter.offsetHeight : 0);
+          var adjustedWidth = window.innerWidth;
+          sheetsViewport.style.width = (adjustedWidth + 'px');
+          sheetsViewport.style.height = (adjustedHeight + 'px');
+          if (optPageSwitcher) {
+            optPageSwitcher.resize(adjustedWidth, adjustedHeight);
+          }
+        }
+        resize();
+        window.onresize = resize;
+        }
+        </script><script>_docs_flag_initialData={"docs-mwid":true,"docs-smheo":false,"info_params":{},"ilcm":{"eui":"ADFN-cuYATWeX9uTzM0ONN6zYGltC8fJtwMh3wWanGmit0MJnByEvWxtNyT_F7h_ZIUCuf-vzqGw","je":1,"sstu":1446009178832000,"si":"CID5yPuz5MgCFWSoMgodxcwM3Q"},"drive_url":"//drive.google.com?usp\u003dsheets_web","docs-sup":"/spreadsheets"};</script></head><body onload=init()><div id="top-bar"><div id="doc-title"><span class="name">Copy of Official TimelineJS3 Template : od1</span></div></div><div id="sheets-viewport"><div id="0" style="display:none;position:relative;" dir="ltr"><div class="ritz grid-container" dir="ltr"><table class="waffle no-grid" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-vertical-handle header-shim row-header-shim"></th><th id="0C0" style="width:58px" class="header-shim"></th><th id="0C1" style="width:48px" class="header-shim"></th><th id="0C2" style="width:53px" class="header-shim"></th><th id="0C3" style="width:65px" class="header-shim"></th><th id="0C4" style="width:65px" class="header-shim"></th><th id="0C5" style="width:59px" class="header-shim"></th><th id="0C6" style="width:59px" class="header-shim"></th><th id="0C7" style="width:63px" class="header-shim"></th><th id="0C8" style="width:63px" class="header-shim"></th><th id="0C9" style="width:153px" class="header-shim"></th><th id="0C10" style="width:222px" class="header-shim"></th><th id="0C11" style="width:120px" class="header-shim"></th><th id="0C12" style="width:120px" class="header-shim"></th><th id="0C13" style="width:173px" class="header-shim"></th><th id="0C14" style="width:120px" class="header-shim"></th><th id="0C15" style="width:120px" class="header-shim"></th><th id="0C16" style="width:120px" class="header-shim"></th><th id="0C17" style="width:120px" class="header-shim"></th></tr></thead><tbody><tr style='height:41px;'><th id="0R0" style="height: 41px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 41px;">1</div></th><td class="s0" dir="ltr">Year</td><td class="s0" dir="ltr">Month</td><td class="s0" dir="ltr">Day</td><td class="s1" dir="ltr">Time</td><td class="s2" dir="ltr">End Year</td><td class="s2" dir="ltr">End Month</td><td class="s2" dir="ltr">End Day</td><td class="s3" dir="ltr">End Time</td><td class="s4" dir="ltr">Display Date</td><td class="s5" dir="ltr">Headline</td><td class="s6" dir="ltr">Text</td><td class="s7" dir="ltr">Media</td><td class="s7" dir="ltr">Media Credit</td><td class="s7" dir="ltr">Media Caption</td><td class="s4" dir="ltr">Media Thumbnail</td><td class="s8" dir="ltr">Type</td><td class="s8" dir="ltr">Group</td><td class="s8" dir="ltr">Background</td></tr><tr><th style="height:3px" class="freezebar-cell freezebar-horizontal-handle row-header-shim"></th><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td><td class="freezebar-cell"></td></tr><tr style='height:16px;'><th id="0R1" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">2</div></th><td class="s9" dir="ltr"></td><td class="s9" dir="ltr">7</td><td class="s9" dir="ltr">3</td><td class="s10"></td><td class="s9"></td><td class="s9"></td><td class="s9"></td><td class="s10"></td><td class="s10"></td><td class="s9" dir="ltr">Google Spreadsheet Example</td><td class="s10" dir="ltr">This is a test of using google spreadsheets as a source for the timeline tool</td><td class="s11" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://www.flickr.com/photos/zachwise/6115056146/in/photostream&amp;sa=D&amp;ust=1446012778841000&amp;usg=AFQjCNEiDiEt5TBN5qAN-LE9tCT1dwd39Q">http://www.flickr.com/photos/zachwise/6115056146/in/photostream</a></td><td class="s9" dir="ltr">Zach Wise/verite.co</td><td class="s9" dir="ltr">&lt;a href=&quot;http://www.flickr.com/photos/zachwise/6115056146/&quot; title=&quot;Chicago by zach.wise, on Flickr&quot;&gt;Chicago by zach.wise&lt;/a&gt;</td><td class="s10"></td><td class="s9" dir="ltr">title</td><td class="s9"></td><td class="s9"></td></tr><tr style='height:16px;'><th id="0R2" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">3</div></th><td class="s12" dir="ltr">2015</td><td class="s12" dir="ltr"></td><td class="s12" dir="ltr"></td><td class="s13"></td><td class="s12" dir="ltr">2015</td><td class="s12" dir="ltr"></td><td class="s12" dir="ltr"></td><td class="s13"></td><td class="s13" dir="ltr">June</td><td class="s12" dir="ltr">Stephen Curry Playoff Push</td><td class="s13" dir="ltr">Stephen Curry led the Golden State Warriors to the 2015 NBA Championship</td><td class="s14" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=https://www.youtube.com/watch?v=Fa_lw05TppE">https://www.youtube.com/watch?v=Fa_lw05TppE</a></td><td class="s12" dir="ltr">NBA</td><td class="s12" dir="ltr">Take a look back at Steph Curry's amazing playoff run that ended in a championship for the Golden State Warriors</td><td class="s13"></td><td class="s12"></td><td class="s12"></td><td class="s12"></td></tr><tr style='height:16px;'><th id="0R3" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">4</div></th><td class="s15" dir="ltr">2015</td><td class="s15" dir="ltr">5</td><td class="s15" dir="ltr">4</td><td class="s16"></td><td class="s15" dir="ltr">2015</td><td class="s15" dir="ltr">5</td><td class="s15" dir="ltr">4</td><td class="s16"></td><td class="s16"></td><td class="s15" dir="ltr">Stephen Curry wins MVP</td><td class="s16" dir="ltr">It&#39;s The 2015 MVP is announced</td><td class="s17" dir="ltr"><a target="_blank" rel="noreferrer" href="http://i.cdn.turner.com/drp/nba/warriors/sites/default/files/styles/story_main_photo/public/kia-mvp-curry-760x442.jpg?itok=RmsmINj2">http://i.cdn.turner.com/drp/nba/warriors/sites/default/files/styles/story_main_photo/public/kia-mvp-curry-760x442.jpg?itok=RmsmINj2</a></td><td class="s15" dir="ltr">NBA.com</td><td class="s15" dir="ltr">Warriors Guard Stephen Curry Named 2014-15 Kia NBA Most Valuable Player</td><td class="s16"></td><td class="s15"></td><td class="s15"></td><td class="s15" dir="ltr">#333333</td></tr><tr style='height:16px;'><th id="0R4" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">5</div></th><td class="s12" dir="ltr">2014</td><td class="s12" dir="ltr">11</td><td class="s12" dir="ltr">1</td><td class="s13" dir="ltr"></td><td class="s12" dir="ltr">2014</td><td class="s12" dir="ltr">11</td><td class="s12" dir="ltr">1</td><td class="s13" dir="ltr"></td><td class="s13"></td><td class="s12" dir="ltr">Oracle Arena, home of the Golden State Warriors</td><td class="s13" dir="ltr">Opening Night in Golden State 2014-15</td><td class="s14" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=https://www.google.com/maps/place/Oracle+Arena/@37.7503369,-122.2052514,17z/data=!3m1!4b1!4m2!3m1!1s0x80857903f9dcd261:0x7d4c592dd5a7ad6a">https://www.google.com/maps/place/Oracle+Arena/@37.7503369,-122.2052514,17z/data=!3m1!4b1!4m2!3m1!1s0x80857903f9dcd261:0x7d4c592dd5a7ad6a</a></td><td class="s12" dir="ltr">Greg SolenstrÃ¶m</td><td class="s12" dir="ltr">Jay Z - &quot;Hello Brooklyn&quot;</td><td class="s13"></td><td class="s12"></td><td class="s12"></td><td class="s12"></td></tr><tr style='height:16px;'><th id="0R5" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">6</div></th><td class="s15" dir="ltr">2011</td><td class="s15" dir="ltr">12</td><td class="s15" dir="ltr">1</td><td class="s16"></td><td class="s15" dir="ltr">2011</td><td class="s15" dir="ltr">12</td><td class="s15" dir="ltr">2</td><td class="s16"></td><td class="s16"></td><td class="s15" dir="ltr">SoundCloud Example</td><td class="s16"></td><td class="s17" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=https://soundcloud.com/conferenceofthebirds/tuesday-02-11-pm&amp;sa=D&amp;ust=1446012778844000&amp;usg=AFQjCNEMlepNKj0rOUvgt8QnrCbKNSPjXw">https://soundcloud.com/conferenceofthebirds/tuesday-02-11-pm</a></td><td class="s15" dir="ltr">recorded by Joe Germuska</td><td class="s15" dir="ltr">A recording of the radiators at Knight Lab</td><td class="s16"></td><td class="s15"></td><td class="s15"></td><td class="s15"></td></tr><tr style='height:16px;'><th id="0R6" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">7</div></th><td class="s12" dir="ltr">2011</td><td class="s12" dir="ltr">12</td><td class="s12" dir="ltr">7</td><td class="s13"></td><td class="s12" dir="ltr">2011</td><td class="s12" dir="ltr">12</td><td class="s12" dir="ltr">8</td><td class="s13"></td><td class="s13"></td><td class="s12" dir="ltr">YouTube Example</td><td class="s13"></td><td class="s14" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://www.youtube.com/watch?v%3D3DiCvHiDWiY&amp;sa=D&amp;ust=1446012778845000&amp;usg=AFQjCNF5U83FyA9tT61K56D3VS43X9z2KA">http://www.youtube.com/watch?v=3DiCvHiDWiY</a></td><td class="s12"></td><td class="s12" dir="ltr">Edwin Land on BBC</td><td class="s13"></td><td class="s12"></td><td class="s12"></td><td class="s12"></td></tr><tr style='height:16px;'><th id="0R7" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">8</div></th><td class="s15" dir="ltr">2011</td><td class="s15" dir="ltr">5</td><td class="s15" dir="ltr">6</td><td class="s16"></td><td class="s15" dir="ltr">2011</td><td class="s15" dir="ltr">5</td><td class="s15" dir="ltr">7</td><td class="s16"></td><td class="s16"></td><td class="s15" dir="ltr">Tweet Example</td><td class="s16"></td><td class="s17" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=https://twitter.com/%23!/ArjunaSoriano/status/164181156147900416&amp;sa=D&amp;ust=1446012778846000&amp;usg=AFQjCNGK76A8_a-bzb5gsvSM4ZOnKk_SVQ">https://twitter.com/#!/ArjunaSoriano/status/164181156147900416</a></td><td class="s15"></td><td class="s15"></td><td class="s16"></td><td class="s15"></td><td class="s15"></td><td class="s17" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=http://knightlab.northwestern.edu/wp-content/uploads/2015/03/front-page-image.jpg&amp;sa=D&amp;ust=1446012778846000&amp;usg=AFQjCNG1EzsxW0OUgTpyWC7NvgK9JTmWiw">http://knightlab.northwestern.edu/wp-content/uploads/2015/03/front-page-image.jpg</a></td></tr><tr style='height:16px;'><th id="0R8" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">9</div></th><td class="s12" dir="ltr">2011</td><td class="s12" dir="ltr">3</td><td class="s12" dir="ltr">4</td><td class="s13"></td><td class="s12" dir="ltr">2011</td><td class="s12" dir="ltr">4</td><td class="s12" dir="ltr">4</td><td class="s13"></td><td class="s13"></td><td class="s12" dir="ltr">Google Map Example</td><td class="s13" dir="ltr">Just put a link to the map. Nothing fancy, just a link.</td><td class="s14" dir="ltr"><a target="_blank" rel="noreferrer" href="https://www.google.com/url?q=https://www.google.com/maps/place/Medill%2BSchool%2Bof%2BJournalism,%2BMedia,%2BIntegrated%2BMarketing%2BCommunications%2BOffice%2Bof%2BDean/@42.0509363,-87.6737809,18z/data%3D!4m2!3m1!1s0x0000000000000000:0x683bff755fbf8f0c&amp;sa=D&amp;ust=1446012778847000&amp;usg=AFQjCNGcndnSbnEJHNGyOMvrbkGek3ioew">https://www.google.com/maps/place/Medill+School+of+Journalism,+Media,+Integrated+Marketing+Communications+Office+of+Dean/@42.0509363,-87.6737809,18z/data=!4m2!3m1!1s0x0000000000000000:0x683bff755fbf8f0c</a></td><td class="s12"></td><td class="s12"></td><td class="s13"></td><td class="s12"></td><td class="s12"></td><td class="s12"></td></tr></tbody></table></div></div></div><div id="footer"><span>Published by <a target="_blank" title="Learn more about Google Sheets" href="https://docs.google.com/spreadsheets/?usp=sheets_web">Google Sheets</a></span><span class="dash">&ndash;</span><a href="https://docs.google.com/abuse?id=1cTjxgJFYsM2mkb_UEL_sf4S65CSKbwo-TMhbbKNSavs">Report Abuse</a><span class="dash">&ndash;</span><span>Updated automatically every 5 minutes</span></div>
+<script type='text/javascript'>
+function posObj(sheet, id, row, col, x, y) {
+  var rtl = false;
+  var sheetElement = document.getElementById(sheet);
+  if (!sheetElement) {
+    sheetElement = document.getElementById(sheet + '-grid-container');
+  }
+  if (sheetElement) {
+    rtl = sheetElement.getAttribute('dir') == 'rtl';
+  }
+  var r = document.getElementById(sheet+'R'+row);
+  var c = document.getElementById(sheet+'C'+col);
+  if (r && c) {
+    var objElement = document.getElementById(id);
+    var s = objElement.style;
+    var t = y;
+    while (r) {
+      t += r.offsetTop;
+      r = r.offsetParent;
+    }
+    var offsetX = x;
+    while (c) {
+      offsetX += c.offsetLeft;
+      c = c.offsetParent;
+    }
+    if (rtl) {
+      offsetX -= objElement.offsetWidth;
+    }
+    s.left = offsetX + 'px';
+    s.top = t + 'px';
+    s.display = 'block';
+    s.border = '1px solid #000000';
+  }
+};
+function posObjs() {
+};
+posObjs();</script>
+<script type="text/javascript">activeSheetId = '0'; switchToSheet('0');</script></body></html>
